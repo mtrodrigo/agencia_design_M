@@ -9,9 +9,9 @@ import Dribble from '@/../public/dribble.png'
 import Behance from '@/../public/behance.png'
 import Google from '@/../public/google.png'
 
-export default function Rodape() {
+export default function Rodape(props) {
   return (
-    <footer className={styles.rodape}>
+    <footer className={props.estiloEscuro ? styles.rodape_escuro : styles.rodape}>
         <section className={styles.rodape_container}>
             <div className={styles.rodape_topo}>
                 <Image className={styles.rodape_topo_img} src={Logo} alt="Logo" />

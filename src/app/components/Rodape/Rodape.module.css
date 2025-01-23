@@ -1,10 +1,13 @@
-.rodape{
+.rodape, .rodape_escuro{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
     padding: 100px 0 0; 
+}
+.rodape_escuro{
+    background: #252525;
 }
 .rodape_container{
     max-width: 600px;

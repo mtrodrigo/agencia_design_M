@@ -14,16 +14,21 @@ export default function Home() {
     setEstilo(!estilo) 
   }
   
-  
-
   return (
     <main className={styles.main}>
       <Topo 
         clickBtn={alterarEstilo} 
-        estiloEscuro={estilo} />
-      <SectionBanner />
-      <SectionExperienciaTrabalho />
-      <Rodape />
+        estiloEscuro={estilo} 
+      />
+      <SectionBanner
+        estiloEscuro={estilo}
+      />
+      <SectionExperienciaTrabalho
+        estiloEscuro={estilo}
+      />
+      <Rodape 
+        estiloEscuro={estilo}
+      />
     </main>
   );
 }

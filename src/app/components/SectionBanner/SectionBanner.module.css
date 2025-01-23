@@ -1,4 +1,4 @@
-.sectionBanner{
+.banner_container{
     width: 100%;
     height: 90vh;
     display: flex;
@@ -14,7 +14,7 @@
     height: 100%;
     object-fit: cover;
 } 
-.banner_container_text{
+.banner_container_text, .banner_container_text_escuro{
     width: 50%;
     height: 100%;
     display: flex;
@@ -24,24 +24,27 @@
     background: #fafbfc;
     color: #022144;
 }
-.banner_container_text p{
+.banner_container_text_escuro{
+    background-color: #cccccc;
+}
+.banner_container_text p, .banner_container_text_escuro p{
     font-size: 18px;
 }
-.sectionBanner h2{
+.banner_container_text h2, .banner_container_text_escuro h2{
     font-size: 50px;
     font-weight: 400;
 }
-.banner_container_text span{
+.banner_container_text span, .banner_container_text_escuro span{
     font-size: 50px;
 }
 @media (max-width: 768px){
-    .sectionBanner{
+    .banner_container{
         justify-content: space-between;
     }
     .banner_container_img{
         display: none;
     }
-    .banner_container_text{
+    .banner_container_text, .banner_container_text_escuro{
         width: 100%;
     }
 }

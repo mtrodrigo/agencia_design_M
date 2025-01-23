@@ -1,13 +1,22 @@
-.card{
+.card, .card_escuro{
     max-width: 300px;
     display: flex; 
     flex-direction: column;
     gap: 20px;
     padding: 70px 30px;
-    border: 1px solid #e0e0e0;background: #fff;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+}
+.card_escuro{
+    background: #333;
+    color: #CCCCCC;
 }
 .card:hover{
     background: #feb633;
+}
+.card_escuro:hover{
+    background: #feb633;
+    color: #333;
 }
 .card_topo{
     display: flex;
