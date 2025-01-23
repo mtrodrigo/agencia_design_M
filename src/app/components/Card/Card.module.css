@@ -1,0 +1,29 @@
+.card{
+    max-width: 300px;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px 30px;
+    border: 1px solid #e0e0e0;background: #fff;
+}
+.card:hover{
+    background: #feb633;
+}
+.card_topo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;text-align: left;
+}
+.card_topo span{
+    font-size: 16px;
+}
+.card_topo h3{
+    font-size: 24px;
+}
+.card_topo small{
+    font-size: 12px;
+}
+.card_texto{
+    font-size: 16px;
+    text-align: justify;
+}
